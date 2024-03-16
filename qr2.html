@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirected Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .paragraph {
+            font-family: cursive;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            line-height: 1.6;
+            max-width: 90%;
+            overflow-wrap: break-word;
+        }
+    </style>
+    <script>
+        var set = window.onload;
+
+        function checktest() {
+            var test = prompt("Please enter the password:");
+            if (test !== "2862") {
+                set = checktest;
+            } else {
+                var paragraph = "Will love gets faded through time? The answer is NO. Time ekkuva aithuna koddi ah manishi tho inka ekva spend chstam ekva ardam chskuntam kabatti pergutadi kani taggadu. Magbe be because of our busy schedules, work, career goals and other stuff calla we may not sometimes have the time to spend with our ones all the time at the same level kani. Starting lo mayeb to let them know that they are important to us konchem anni pakkana pettesi extra efforts pedtam emo kani temporary ga apud apud ital aitademo kani inbuilt love atlaney untadi. But we dont realize sometimes that we are getting busy ani. But then here Iam to always remind you that I always have the same feeling when we first became close. Danikante ekvane ayyindi kani takkuva aitey kaledu. Knowing or unknowing you too have put lot of efforts to keep our bond strong and fresh. But then maybe women are good at expressing things and men are more practical compared to women by nature by shristi we feel that the bond is not fresh as the beginning. But trust me it is. And it will be but the thing is we have to enjoy every moment of it and cherish them. Recall all the moments we had. The excitement, the efforts that we invested to meet, talk and get engage either each other. That made each of us smile, blush. The key is to ‘Remember, Recall and Refresh.’ There is nothing that is going to vanish if it all started akki. Maybe until there are some situations around that make us act that way at that moment. If everything has vanished. I wouldn’t be here, writing this for you. And here iam putting all my efforts to remain this bond fresh✨.";
+
+                document.body.style.backgroundImage = "none";
+                document.body.innerHTML = '<div class="paragraph">' + paragraph + '</div>';
+            }
+        }
+        window.onload = checktest;
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
